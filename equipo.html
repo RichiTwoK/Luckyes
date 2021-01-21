@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUCKYES</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;700&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link rel="preload" href="CSS/normalize.css" as="style">
     <link rel="stylesheet" href="CSS/normalize.css">
+   
+    <link rel="preload" href="CSS/styles.css" as="style">
     <link rel="stylesheet" href="CSS/styles.css">
+
+    <link rel="preload" href="Img/fondo.png" as="image">
+    <link rel="preload" href="Img/logo_pag_sec.png" as="image">
+
 </head>
 <body>
     <header class="fondo__sn">
@@ -65,7 +75,7 @@
         <section class="grupo borde">
             <h4 class="grupo__titulo">Corte Laser</h4>
             <div class="grupo__div">
-                <img class="grupo__img" src="/Img/laser.png" alt="cortadora">
+                <img loading="lazy" class="grupo__img" src="/Img/laser.png" alt="cortadora">
                 <div class="grupo__p">
                     <p>El corte con láser es una técnica empleada para 
                         cortar piezas de diferentes materiales como mdf acrilicos 
@@ -81,7 +91,7 @@
             <div class="ejemplo__corte">
                 <h4 class="ejemplo__titulo">Ejemplos</h4>
                 <div class="ejemplo__video">
-                    <video controls 
+                    <video loading="lazy" controls 
                      src="/video/video_laser.webm">
                     </video>
                 </div>
@@ -102,7 +112,7 @@
         <section class="grupo borde equipo">
             <h4 class="grupo__titulo">impresion 3d</h4>
             <div class="grupo__div">
-                <img class="grupo__img" src="/Img/3d.png" alt="3D">
+                <img  class="grupo__img" src="/Img/3d.png" alt="3D">
                 <div class="grupo__p">
                     <p>La impresión 3D es un grupo de tecnologías
                         de fabricación por adición donde un objeto 
@@ -116,7 +126,7 @@
             <div class="ejemplo__corte">
                 <h4 class="ejemplo__titulo">Ejemplos</h4>
                 <div class="ejemplo__video">
-                    <video controls 
+                    <video loading="lazy" controls 
                      src="/video/3D.webm">
                     </video>
                 </div>
@@ -135,7 +145,7 @@
         <section class="grupo borde equipo">
             <h4 class="grupo__titulo">Termoformado</h4>
             <div class="grupo__div">
-                <img class="grupo__img" src="/Img/termo.png" alt="termoconformado">
+                <img loading="lazy" class="grupo__img" src="/Img/termo.png" alt="termoconformado">
                 <div class="grupo__p">
                     <p>El termoconformado o termoformado es un proceso consiste 
                         en calentar una plancha o lámina de termoplástico semielaborado, 
@@ -149,7 +159,7 @@
             <div class="ejemplo__corte">
                 <h4 class="ejemplo__titulo">Ejemplos</h4>
                 <div class="ejemplo__video">
-                    <video controls 
+                    <video loading="lazy" controls 
                      src="/video/termo.webm">
                     </video>
                 </div>
