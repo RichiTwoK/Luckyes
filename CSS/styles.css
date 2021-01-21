@@ -101,6 +101,17 @@ img {
     margin: 0;
 }
 
+@media (min-width: 731px) {
+    .social {
+        z-index: 700;
+    }
+}
+@media (min-width: 920px) {
+    .social {
+        z-index: 2000;
+    }
+}
+
 .social ul {
     list-style: none;
     margin: 0;
