@@ -143,7 +143,7 @@ img {
 
 /*Header*/
 .fondo {
-    background-image: url(../Img/logo2.png);
+    background-image: url(../Img/logo2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
@@ -426,7 +426,7 @@ img {
 
 /*Pag_Diseños y Equipo (barra de navegacion)*/
 .fondo__sn {
-    background-image: url(../Img/fondo.png);
+    background-image: url(../Img/fondo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 17vh;
