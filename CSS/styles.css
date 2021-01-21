@@ -536,7 +536,7 @@ form {
     font-size: 2rem;
     color:var(--colorF); 
 }
-@media (min-width: 920px) {
+@media (min-width: 731px) {
     .categorias{
         flex-direction:initial;
         gap:initial;
