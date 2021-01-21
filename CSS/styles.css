@@ -103,12 +103,12 @@ img {
 
 @media (min-width: 731px) {
     .social {
-        z-index: 700;
+        top: 50px;
     }
 }
 @media (min-width: 920px) {
     .social {
-        z-index: 2000;
+        top: 200px;
     }
 }
 
