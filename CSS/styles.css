@@ -80,7 +80,7 @@ img {
     text-align: center;
 }
 .no-margin {
-    margin: 1rem auto;
+    margin: 3rem auto;
     color: var(--colorC);
 }
 
@@ -656,7 +656,7 @@ form {
 }
 
 .formulario {
-    background-color: rgb(214, 115, 22);
+    background-color: rgb(153, 7, 56);
     margin: -3rem auto 3rem auto;
     width:min(80rem, 100% );
     padding: 2rem;
