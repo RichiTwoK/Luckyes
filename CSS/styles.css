@@ -550,7 +550,7 @@ form {
         
     }
     .categorias a {
-        margin: 1rem 3rem;
+        margin: 1rem 1rem;
     }
 }
 
@@ -558,6 +558,16 @@ form {
     .categorias {
         gap: 2.5rem;
         margin-bottom: 2rem;
+    }
+    .categorias{
+        flex-direction:initial;
+        gap:initial;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .categorias a {
+        margin: 1rem 3rem;
     }
 }
 
